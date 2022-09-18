@@ -1,0 +1,82 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 0.2959566404899991 0.0009109380951146758 1.5936464027151165
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+WoodenBox {
+  translation 0.383211 0.0454131 0.05
+  rotation 0 1 0 0
+  size 0.1 0.4 0.1
+  locked TRUE
+}
+WoodenBox {
+  translation 0.509352 0.349454 0.05
+  rotation 0 0 1 -0.7853996938995746
+  name "wooden box(1)"
+  size 0.1 0.4 0.1
+  locked TRUE
+}
+WoodenBox {
+  translation 0.816365 0.473849 0.05
+  rotation 0 0 -1 1.5708
+  name "wooden box(2)"
+  size 0.1 0.4 0.1
+  locked TRUE
+}
+WoodenBox {
+  translation 0.941448 -0.0673133 0.05
+  rotation 0 0 -1 0
+  name "wooden box(4)"
+  size 0.1 0.4 0.1
+  locked TRUE
+}
+WoodenBox {
+  translation 1.07714 -0.38956 0.05
+  rotation 0 0 -1 -0.9163003061004252
+  name "wooden box(5)"
+  size 0.1 0.4 0.1
+}
+WoodenBox {
+  translation 1.32572 -0.32963 0.05
+  rotation 0 0 -1 1.0471996938995747
+  name "wooden box(6)"
+  size 0.1 0.4 0.1
+  locked TRUE
+}
+WoodenBox {
+  translation 1.25071 0.331729 0.05
+  rotation 0 0 -1 2.0944003061004253
+  name "wooden box(3)"
+  size 0.1 0.6 0.1
+  locked TRUE
+}
+E-puck {
+  hidden position_0_0 4.220160028864131
+  hidden position_0_1 4.220160028869457
+  hidden rotation_1 0 1 0 4.220160028864131
+  hidden rotation_2 0 1 0 4.220160028869457
+  rotation 0 0 1 0.5235996938995747
+  controller "bug0_controller"
+  turretSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
